@@ -1,12 +1,12 @@
 import React  from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import Header from "./js/components/Header";
 import Footer from "./js/components/Footer";
 import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Header />
           <Route exact path='/' component={Index} />
@@ -14,7 +14,7 @@ function App() {
           <Route path='/third' component={Third} />
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
