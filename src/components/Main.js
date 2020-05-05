@@ -19,12 +19,6 @@ export default class Main extends React.Component {
   }
 }
 
-const Index = () => (
-  <div>
-    <h2>Index</h2>
-    <p>インデックスページ</p>
-  </div>
-)
 const Second = () => (
   <div>
     <h2>Second</h2>
