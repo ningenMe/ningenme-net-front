@@ -1,9 +1,12 @@
 import React from "react";
+import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 
 export default class Footer extends React.Component {
   render() {
     return (
-      <div>fooooterrrrr</div>
+    <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar.Brand href="#">&copy; 2020　Furuta Taishi</Navbar.Brand>
+    </Navbar>
     );
   }
 }
