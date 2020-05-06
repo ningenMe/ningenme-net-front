@@ -6,8 +6,7 @@ import Home from '../pages/Home'
 export default class Main extends React.Component {
   render() {
     return (
-      <Container fixed style={{ backgroundColor: '#cfe8fc'}} >
-        home<br /><br /><br /><br /><br /><br /><br /><br />aaaaaaaaaaaaaa<br /><br />
+      <Container fixed style={{ backgroundColor: 'transparent'}} >
         <HashRouter>
           <Route exact path='/' component={Home} />
           <Route path='/home' component={Home} />
