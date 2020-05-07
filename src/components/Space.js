@@ -1,13 +1,12 @@
 import React  from 'react';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
+import {Box,Typography} from '@material-ui/core';
 
 export default class Space extends React.Component {
   render() {
     return (
-      <Container fixed style={{ backgroundColor: 'transparent'}}>
+      <Box p={2} style={{ backgroundColor: 'transparent'}}>
         <Typography style={{ height: this.props.spaceSize }} />
-      </Container>
+      </Box>
     );
   }
 }
