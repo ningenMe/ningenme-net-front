@@ -1,12 +1,12 @@
 import React  from 'react';
-import Container from '@material-ui/core/Container';
+import LinkListCard from '../components/LinkListCard';
+import * as Contents from '../assets/Contents';
 
 export default class Home extends React.Component {
     render() {
         return (
-        <Container maxWidth="sm" style={{ backgroundColor: '#000000'}} >
-            home<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />aaaaaaaaaaaaaa<br /><br />
-        </Container>
+            //Applications
+            <LinkListCard title="Application" items={Contents.Applications}></LinkListCard>
         );
     }
 }
