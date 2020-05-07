@@ -9,8 +9,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Space />
+      <Space spaceSize='8vh'/>
       <Main />
+      <Space spaceSize='2vh'/>
       <Footer />
     </div>
   );
