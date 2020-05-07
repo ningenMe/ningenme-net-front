@@ -27,6 +27,7 @@ export const Papers = [
     {name:"Phys.Rev.Appl. 10, 034063(2018)",         href:'https://iopscience.iop.org/article/10.1088/1361-6463/ab5a27/meta'},
 ];
 export const Activities = [
+    "2020 : Google Code jam　Round2 進出",
     "2019 : 第一回アルゴリズム実技検定　エキスパート取得",
     "2019 : 大阪大学基礎工学研究科専攻賞受賞",
     "2019 : 全国統一プログラミング王本戦出場",

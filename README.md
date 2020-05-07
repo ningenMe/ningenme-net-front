@@ -4,6 +4,16 @@
 ### これは何？
 https://ningenme.net のフロントエンド
 
+#### 旧リポジトリ(Vue)
+https://github.com/ningenMe/ningenMe.net.UI
+
+#### アーキテクチャ
+```
+rooting: Cloud Front
+hosting: S3
+ci/cd  : github actions
+```
+
 #### ローカルで実行するとき
 ```
 yarn start
