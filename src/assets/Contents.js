@@ -3,8 +3,9 @@ export const Profile = {name:"Furuta Taishi",
           "学生時代は物性物理と機械学習をしていました。",
           "現在はソフトウェアエンジニアをしています。"]};
 export const Applications = [
-    {name:"精進記録",          href:'https://compro-category.ningenme.net'},
-    {name:"競プロ用ライブラリ",href:'https://ningenme.github.io/compro-library'},
+    {name:"compro-category", href:'https://compro-category.ningenme.net'},
+    {name:"compro-library",  href:'https://ningenme.github.io/compro-library'},
+    {name:"api-document",    href:'https://ningenme.github.io/api-document/'},
 ];
 export const Problems = [
     {name:"[yukicoder] All Tree Path",             href:'https://yukicoder.me/problems/no/872'},
