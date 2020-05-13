@@ -5,7 +5,7 @@ export const Profile = {name:"Furuta Taishi",
 export const Applications = [
     {name:"compro-category", href:'https://compro-category.ningenme.net'},
     {name:"compro-library",  href:'https://ningenme.github.io/compro-library'},
-    {name:"api-document",    href:'https://ningenme.github.io/api-document/'},
+    {name:"api-document",    href:'https://ningenme.github.io/api-document'},
 ];
 export const Problems = [
     {name:"[yukicoder] All Tree Path",             href:'https://yukicoder.me/problems/no/872'},

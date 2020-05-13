@@ -9,7 +9,7 @@ export default class Header extends React.Component {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link target="_blank" href="https://twitter.com/ningenMe">Twitter</Nav.Link>
+          {/* <Nav.Link target="_blank" href="https://twitter.com/ningenMe">Twitter</Nav.Link> */}
           <Nav.Link target="_blank" href="https://github.com/ningenMe">Github</Nav.Link>
           <NavDropdown title="Blog" id="basic-nav-dropdown">
             <NavDropdown.Item target="_blank" href="https://qiita.com/ningenMe">Qiita</NavDropdown.Item>
