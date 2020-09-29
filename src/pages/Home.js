@@ -9,10 +9,8 @@ export default class Home extends React.Component {
         return (
             <div>
             <TextCard title="Profile" items={Contents.Profile}></TextCard>
-            <LinkListCard title="Application" items={Contents.Applications}></LinkListCard>
-            <LinkListCard title="Problem" items={Contents.Problems}></LinkListCard>
+            <LinkListCard title="Creation" items={Contents.Applications}></LinkListCard>
             <TextListCard title="Activitiy" items={Contents.Activities}></TextListCard>
-            <LinkListCard title="Paper" items={Contents.Papers}></LinkListCard>
             <TextListCard title="History" items={Contents.Histories}></TextListCard>
             </div>
         );

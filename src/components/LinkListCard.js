@@ -4,12 +4,14 @@ import {Box,Card,CardContent,Typography,Link} from '@material-ui/core';
 export default class LinkListCard extends React.Component {
     render() {
         const listItems = this.props.items.map((item) =>
-            <Typography align="left">
-                ・
-                <Link href={item.href} target="_blank">
-                    {item.name}
-                </Link>
-            </Typography>
+            <li>
+                <Typography align="left">
+                    <Link href={item.href} target="_blank">{item.name}</Link>
+                </Typography>
+                <Typography align="left">
+                    {item.description}
+                </Typography>
+            </li>
         );
         return (
             <Box p={1}>
@@ -18,7 +20,7 @@ export default class LinkListCard extends React.Component {
                         {this.props.title}
                     </Typography>
                     <CardContent>
-                        {listItems}
+                        <ul> {listItems} </ul>
                     </CardContent>
                 </Card> 
             </Box>
