@@ -4,6 +4,7 @@ import Container from '@material-ui/core/Container';
 import Home from '../pages/Home'
 import Problems from '../pages/Problems'
 import Papers from '../pages/Papers'
+import Blogs from '../pages/Blogs'
 
 export default class Main extends React.Component {
   render() {
@@ -14,6 +15,7 @@ export default class Main extends React.Component {
           <Route path='/home' component={Home} />
           <Route path='/problems' component={Problems} />
           <Route path='/papers' component={Papers} />
+          <Route path='/blogs' component={Blogs} />
         </HashRouter>
       </Container>
     );
