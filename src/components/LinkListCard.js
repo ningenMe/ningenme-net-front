@@ -15,7 +15,7 @@ export default class LinkListCard extends React.Component {
         );
         return (
             <Box p={1}>
-                <Card gutterBottom style={{ backgroundColor: '#D7EEFF'}}>
+                <Card gutterbottom="true" style={{ backgroundColor: '#D7EEFF'}}>
                     <Typography variant="h6" align="left" style={{ backgroundColor: '#222222', color: '#FFFFFF'}}>
                         {this.props.title}
                     </Typography>

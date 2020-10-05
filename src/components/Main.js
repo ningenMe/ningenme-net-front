@@ -5,6 +5,7 @@ import Home from '../pages/Home'
 import Problems from '../pages/Problems'
 import Papers from '../pages/Papers'
 import Blogs from '../pages/Blogs'
+import Articles from '../pages/Articles'
 
 export default class Main extends React.Component {
   render() {
@@ -16,6 +17,7 @@ export default class Main extends React.Component {
           <Route path='/problems' component={Problems} />
           <Route path='/papers' component={Papers} />
           <Route path='/blogs' component={Blogs} />
+          <Route path='/articles' component={Articles} />
         </HashRouter>
       </Container>
     );

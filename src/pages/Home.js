@@ -11,7 +11,8 @@ export default class Home extends React.Component {
             <div>
             <TextCard title="Profile" items={Contents.Profile}></TextCard>
             <LinkListCard title="Creation" items={Contents.Applications}></LinkListCard>
-            <ArticleListCard title="Article" items={Contents.Articles}></ArticleListCard>
+            <ArticleListCard title="Articles" items={Contents.Articles} num={3} href="/#/articles"></ArticleListCard>
+            <ArticleListCard title="Blogs" items={Contents.Blogs} num={3} href="/#/blogs"></ArticleListCard>
             <TextListCard title="Activitiy" items={Contents.Activities}></TextListCard>
             <TextListCard title="History" items={Contents.Histories}></TextListCard>
             </div>
