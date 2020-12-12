@@ -12,6 +12,8 @@ export const Applications = [
     {name:"contest-record" , href:'https://contest-record.ningenme.net/'     , description:"開発途中..."},
 ];
 export const Articles = [
+    {date:"2020-12-12",name:"OUPC2020 G. Construction Set 解説", href:'https://ningenme.hatenablog.com/entry/2020/12/12/170313'},
+    {date:"2020-12-12",name:"OUPC2020 C. Symmetric NBase Number 解説", href:'https://ningenme.hatenablog.com/entry/2020/12/12/132851'},
     {date:"2020-08-16",name:"MySQLで3億レコード物理削除した話", href:'https://qiita.com/ningenMe/items/57bd66359d89b691ba0d'},
     {date:"2020-03-29",name:"非再帰抽象化セグメント木について", href:'https://qiita.com/ningenMe/items/bf66de877e3b97d35862'},
     {date:"2020-03-21",name:"OUPC β A,B,D 解説", href:'https://ningenme.hatenablog.com/entry/2020/03/21/170301'},
@@ -34,6 +36,7 @@ export const Articles = [
     {date:"2018-06-05",name:"ABC過去問を全部解きました。[前編]", href:'https://ningenme.hatenablog.com/entry/2018/06/05/093012'},
 ];
 export const Blogs = [
+    {date:"2020-12-11",name:"【漫画】2020年の漫画振り返り",             href:'https://ameblo.jp/ningenme/entry-12640244018.html'},
     {date:"2020-11-21",name:"【漫画】水は海に向かって流れる",           href:'https://ameblo.jp/ningenme/entry-12639268535.html'},
     {date:"2020-11-21",name:"【漫画】往生際の意味を知れ！ 1-2巻",       href:'https://ameblo.jp/ningenme/entry-12639264720.html'},
     {date:"2020-11-13",name:"【漫画】望郷太郎 1-3巻",                   href:'https://ameblo.jp/ningenme/entry-12637695036.html'},
@@ -73,6 +76,8 @@ export const Problems = [
     {name:"[hackerrank] Product Grid",             href:'https://www.hackerrank.com/contests/oupc-beta/challenges/product-grid'},
     {name:"[yukicoder] Color Box",                 href:'https://yukicoder.me/problems/no/1035'},
     {name:"[yukicoder] Make One With GCD 2",       href:'https://yukicoder.me/problems/no/1036'},
+    {name:"[aoj] Symmetric Nbase Number",          href:'https://onlinejudge.u-aizu.ac.jp/beta/room.html#OUPC2020/problems/C'},
+    {name:"[aoj] Construction Set",                href:'https://onlinejudge.u-aizu.ac.jp/beta/room.html#OUPC2020/problems/G'},
 ];
 export const Papers = [
     {name:"J. Phys. D: Appl. Phys. 53, 094001(2019)",href:'https://iopscience.iop.org/article/10.1088/1361-6463/ab5a27/meta',description:"共著"},
@@ -80,8 +85,10 @@ export const Papers = [
     {name:"Phys.Rev.Appl. 10, 034063(2018)",         href:'https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.10.034063' , description:"主著。磁気素子を用いたrservoir computingがパフォーマンスを出せることを示したシミュレーションの論文です。"},
 ];
 export const Activities = [
+    "2020 : OUPC2020 writer/tester",
     "2020 : Google Code jam　Round2 進出",
     "2019 : 第一回アルゴリズム実技検定　エキスパート取得",
+    "2019 : yukicoder contest 229 writer",
     "2019 : 大阪大学基礎工学研究科専攻賞受賞",
     "2019 : 全国統一プログラミング王本戦出場",
     "2018 : 基本情報技術者試験合格",
