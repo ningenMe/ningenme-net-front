@@ -36,6 +36,7 @@ export const Articles = [
     {date:"2018-06-05",name:"ABC過去問を全部解きました。[前編]", href:'https://ningenme.hatenablog.com/entry/2018/06/05/093012'},
 ];
 export const Blogs = [
+    {date:"2020-12-16",name:"【ゲーム】空の軌跡　FC/SC/3rd",            href:'https://ameblo.jp/ningenme/entry-12630094428.html'},
     {date:"2020-12-11",name:"【漫画】2020年の漫画振り返り",             href:'https://ameblo.jp/ningenme/entry-12640244018.html'},
     {date:"2020-11-21",name:"【漫画】水は海に向かって流れる",           href:'https://ameblo.jp/ningenme/entry-12639268535.html'},
     {date:"2020-11-21",name:"【漫画】往生際の意味を知れ！ 1-2巻",       href:'https://ameblo.jp/ningenme/entry-12639264720.html'},
