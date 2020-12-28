@@ -12,6 +12,7 @@ export const Applications = [
     {name:"contest-record" , href:'https://contest-record.ningenme.net/'     , description:"開発途中..."},
 ];
 export const Articles = [
+    {date:"2020-12-23",name:"競プロ駆動で開発している話。", href:'https://ningenme.hatenablog.com/entry/2020/12/23/000000'},
     {date:"2020-12-12",name:"OUPC2020 G. Construction Set 解説", href:'https://ningenme.hatenablog.com/entry/2020/12/12/170313'},
     {date:"2020-12-12",name:"OUPC2020 C. Symmetric NBase Number 解説", href:'https://ningenme.hatenablog.com/entry/2020/12/12/132851'},
     {date:"2020-08-16",name:"MySQLで3億レコード物理削除した話", href:'https://qiita.com/ningenMe/items/57bd66359d89b691ba0d'},
