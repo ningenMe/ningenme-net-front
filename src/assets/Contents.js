@@ -6,10 +6,10 @@ export const Applications = [
     {name:"problems"       , href:'/#/problems'                              , description:"競技プログラミングの作問リスト"},
     {name:"compro-category", href:'https://compro-category.ningenme.net'     , description:"競技プログラミングの問題カテゴライズ"},
     {name:"compro-library" , href:'https://ningenme.github.io/compro-library', description:"競技プログラミングのライブラリ"},
+    {name:"contest-record" , href:'https://contest-record.ningenme.net/'     , description:"競技プログラミング関連のwebアプリ。のんびり開発中"},
     {name:"api-document"   , href:'https://ningenme.github.io/api-document'  , description:"趣味開発のapi-document"},
     {name:"paper"          , href:'/#/papers'                                , description:"論文リスト"},
-    {name:"blog"           , href:'/#/blogs'                                  , description:"ブログ。漫画の話とか諸々。"},
-    {name:"contest-record" , href:'https://contest-record.ningenme.net/'     , description:"開発途中..."},
+    {name:"blog"           , href:'/#/blogs'                                 , description:"ブログ。漫画の話とか諸々。"},
 ];
 export const Articles = [
     {date:"2020-12-23",name:"競プロ駆動で開発している話。", href:'https://ningenme.hatenablog.com/entry/2020/12/23/000000'},
