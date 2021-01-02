@@ -12,6 +12,7 @@ export const Applications = [
     {name:"blog"           , href:'/#/blogs'                                 , description:"ブログ。漫画の話とか諸々。"},
 ];
 export const Articles = [
+    {date:"2021-01-03",name:"2021目標メモ。", href:'https://ningenme.hatenablog.com/entry/2021/01/03/004950'},
     {date:"2020-12-23",name:"競プロ駆動で開発している話。", href:'https://ningenme.hatenablog.com/entry/2020/12/23/000000'},
     {date:"2020-12-12",name:"OUPC2020 G. Construction Set 解説", href:'https://ningenme.hatenablog.com/entry/2020/12/12/170313'},
     {date:"2020-12-12",name:"OUPC2020 C. Symmetric NBase Number 解説", href:'https://ningenme.hatenablog.com/entry/2020/12/12/132851'},
