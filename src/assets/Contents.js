@@ -1,15 +1,16 @@
 export const Profile = {name:"Furuta Taishi",
     text:["競技プログラミングが好きです",
           "学生時代は物性物理と機械学習をしていました。",
-          "現在はソフトウェアエンジニアをしています。"]};
+          "現在はwebエンジニアをしています。"]};
 export const Applications = [
-    {name:"problems"       , href:'/#/problems'                              , description:"競技プログラミングの作問リスト"},
-    {name:"compro-category", href:'https://compro-category.ningenme.net'     , description:"競技プログラミングの問題カテゴライズ"},
-    {name:"compro-library" , href:'https://ningenme.github.io/compro-library', description:"競技プログラミングのライブラリ"},
-    {name:"contest-record" , href:'https://contest-record.ningenme.net/'     , description:"競技プログラミング関連のwebアプリ。のんびり開発中"},
-    {name:"api-document"   , href:'https://ningenme.github.io/api-document'  , description:"趣味開発のapi-document"},
-    {name:"paper"          , href:'/#/papers'                                , description:"論文リスト"},
-    {name:"blog"           , href:'/#/blogs'                                 , description:"ブログ。漫画の話とか諸々。"},
+    {name:"problems"       , href:'/#/problems'                              , description:"競技プログラミングの作問リスト。"},
+    {name:"compro-category", href:'https://compro-category.ningenme.net'     , description:"競技プログラミングの問題カテゴライズ。"},
+    {name:"compro-library" , href:'https://ningenme.github.io/compro-library', description:"競技プログラミングのライブラリ。"},
+    {name:"contest-record" , href:'https://contest-record.ningenme.net/'     , description:"競技プログラミング関連のwebアプリ。のんびり開発中。"},
+    {name:"article"        , href:'/#/articles'                              , description:"技術記事。主に競プロかwebの話。"},
+    {name:"blog"           , href:'/#/blogs'                                 , description:"趣味ブログ。主に漫画かアニメか私事の話。"},
+    {name:"paper"          , href:'/#/papers'                                , description:"論文リスト。磁性素子で機械学習を行うシミュレーションの研究をしていました。"},
+    {name:"api-document"   , href:'https://ningenme.github.io/api-document'  , description:"趣味開発のドキュメント。"},
 ];
 export const Articles = [
     {date:"2021-01-03",name:"2021目標メモ。", href:'https://ningenme.hatenablog.com/entry/2021/01/03/004950'},
@@ -105,7 +106,7 @@ export const Activities = [
     "2018 : 春季応用物理学会英語講演奨励賞受賞"
 ];
 export const Histories = [
-    "2019-20XX : Yahoo! Japan Software Engineer",
+    "2019-2021 : Yahoo! Japan Software Engineer",
     "2017-2019 : 大阪大学大学院　基礎工学研究科",
     "2013-2017 : 大阪大学　基礎工学部"
 ];
