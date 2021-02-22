@@ -7,10 +7,11 @@ export const Applications = [
     {name:"compro-category", href:'https://compro-category.ningenme.net'     , description:"競技プログラミングの問題カテゴライズ。"},
     {name:"compro-library" , href:'https://ningenme.github.io/compro-library', description:"競技プログラミングのライブラリ。"},
     {name:"contest-record" , href:'https://contest-record.ningenme.net/'     , description:"競技プログラミング関連のwebアプリ。のんびり開発中。"},
+    {name:"api-document"   , href:'https://ningenme.github.io/api-document'  , description:"趣味開発のドキュメント。"},
+    {name:"works"          , href:'https://indies.mangabox.me/author/10633/' , description:"描いた漫画一覧。大学時代に漫研で活動していました。"},
     {name:"article"        , href:'/#/articles'                              , description:"技術記事。主に競プロかwebの話。"},
     {name:"blog"           , href:'/#/blogs'                                 , description:"趣味ブログ。主に漫画かアニメか私事の話。"},
     {name:"paper"          , href:'/#/papers'                                , description:"論文リスト。磁性素子で機械学習を行うシミュレーションの研究をしていました。"},
-    {name:"api-document"   , href:'https://ningenme.github.io/api-document'  , description:"趣味開発のドキュメント。"},
 ];
 export const Articles = [
     {date:"2021-01-03",name:"2021目標メモ。", href:'https://ningenme.hatenablog.com/entry/2021/01/03/004950'},
