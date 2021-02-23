@@ -14,6 +14,7 @@ export const Applications = [
     {name:"paper"          , href:'/#/papers'                                    , description:"論文リスト。磁性素子で機械学習を行うシミュレーションの研究をしていました。"},
 ];
 export const Articles = [
+    {date:"2021-02-23",name:"サービス稼働中のMySQLのカラム変更で気をつけること", href:'https://qiita.com/ningenMe/items/10c4ddf8e85e7e5078e1'},
     {date:"2021-01-03",name:"2021目標メモ。", href:'https://ningenme.hatenablog.com/entry/2021/01/03/004950'},
     {date:"2020-12-23",name:"競プロ駆動で開発している話。", href:'https://ningenme.hatenablog.com/entry/2020/12/23/000000'},
     {date:"2020-12-12",name:"OUPC2020 G. Construction Set 解説", href:'https://ningenme.hatenablog.com/entry/2020/12/12/170313'},
@@ -40,6 +41,7 @@ export const Articles = [
     {date:"2018-06-05",name:"ABC過去問を全部解きました。[前編]", href:'https://ningenme.hatenablog.com/entry/2018/06/05/093012'},
 ];
 export const Blogs = [
+    {date:"2021-01-19",name:"【漫画】いじめるヤバイ奴　1-120話",          href:'https://ameblo.jp/ningenme/entry-12658135919.html'},
     {date:"2021-01-19",name:"【アニメ】ヴァイオレット・エヴァーガーデン", href:'https://ameblo.jp/ningenme/entry-12651161065.html'},
     {date:"2021-01-19",name:"【漫画】BEASTARS",                           href:'https://ameblo.jp/ningenme/entry-12651158395.html'},
     {date:"2021-01-19",name:"【漫画】夢の端々",                           href:'https://ameblo.jp/ningenme/entry-12650106820.html'},
